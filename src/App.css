@@ -32,7 +32,14 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.app {
+  min-height: 100vh;
+  padding-bottom: 60px;
+  /* กัน footer ทับเนื้อหา */
 }
